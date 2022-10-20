@@ -1,0 +1,129 @@
+.slider{
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 30s infinite alternate;
+}
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+body{
+    font-size: 16px;
+}
+
+*{
+    padding:0px;
+    margin:0px;
+
+}
+
+#header{
+font-family: arial, helvetica, sans-serif;
+}
+ul,ol{
+list-style: none;
+}
+
+.nav li a{
+background-color:rgba(24, 2, 224, 0.555);
+color: #fff;
+text-decoration: none;
+padding: 10px 15px;
+display: block;
+}
+
+.nav li a:hover {
+background-color: #5a2525;
+}
+
+
+.nav > li {
+float:left;
+
+}
+
+.nav li ul {
+display: none;
+position: absolute;
+min-width: 140px;
+}
+
+.nav li:hover > ul {
+display: block;
+}
+
+.nav li ul li {
+position: relative;
+}	
+.nav li ul li ul {
+right: -140px;
+top: 0px;	
+}
+.img1{
+    float: right;
+    vertical-align: middle;
+}
+.img2{
+    float: left;
+    vertical-align: middle;
+}
+.z{
+    background-color: rgba(255, 0, 0, 0.384);
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+
+}
+.z1{
+    background-color: rgba(255, 0, 0, 0.795);
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.h{
+    font-size: 1.2rem;
+    background-color: rgba(165, 42, 42, 0.598);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+
+}
+.g{
+    background-color: rgba(27, 15, 15, 0.64);
+    font: 1.2rem Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.g1{
+    background-color: rgba(244, 183, 104, 0.634);
+    font: 1.2rem Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.g12{
+    background-color: rgba(238, 246, 8, 0.637);
+    color: rgb(255, 255, 255);
+    font: 1.2rem Georgia, 'Times New Roman', Times, serif;
+}
